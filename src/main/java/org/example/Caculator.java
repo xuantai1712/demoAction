@@ -4,7 +4,7 @@ public class Caculator implements ICaculator{
 
     @Override
     public Integer sub(Integer a, Integer b) {
-        return a - b;
+        return a + b;
     }
 
     @Override
