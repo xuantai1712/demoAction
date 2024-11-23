@@ -9,9 +9,8 @@ on: # định nghĩa  các sự kiện để kích hoạt workflow
       - main
 
 jobs: #job là hành động được thực hiện trong sự kiện
-  windows-job: # tên job
+  build: # tên job
     name: Test on Windows #tên hiển thị của job
-
     runs-on: windows-latest #  Job sẽ chạy trên một môi trường ảo với hệ điều hành windows phiên bản mới nhất
 
 
